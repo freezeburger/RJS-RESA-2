@@ -1,0 +1,60 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": true,
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "index": "templates/components/index.tsx",
+        "component": "templates/components/TemplateName.tsx",
+        "story": "templates/components/TemplateName.stories.tsx",
+        "style": "templates/components/TemplateName.styled.tsx",
+        "test": "templates/components/TemplateName.test.tsx"
+      }
+    },
+    "view": {
+      "path": "src/views",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": true,
+      "withIndex": true,
+      "customTemplates": {
+        "index": "templates/views/index.tsx",
+        "component": "templates/views/TemplateName.tsx",
+        "lazy": "templates/views/TemplateName.lazy.tsx",
+        "story": "templates/views/TemplateName.stories.tsx",
+        "style": "templates/views/TemplateName.style.css",
+        "test": "templates/views/TemplateName.test.tsx"
+      }
+    },
+    "container": {
+      "path": "src/containers",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": true,
+      "withIndex": true,
+      "withHook": true,
+      "withHoc": true,
+      "withTypes": true,
+      "customTemplates": {
+        "index": "templates/containers/index.tsx",
+        "hook": "templates/containers/useLogic.hook.tsx",
+        "hoc": "templates/containers/withLogic.hoc.tsx",
+        "types": "templates/containers/TemplateName.types.tsx",
+        "component": "templates/containers/TemplateName.tsx",
+        "lazy": "templates/containers/TemplateName.lazy.tsx",
+        "story": "templates/containers/TemplateName.stories.tsx",
+        "style": "templates/containers/TemplateName.style.css",
+        "test": "templates/containers/TemplateName.test.tsx"
+      }
+    }
+  },
+  "testLibrary": "Testing Library"
+}
