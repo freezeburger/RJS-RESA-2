@@ -19,7 +19,10 @@ const Products: FC<ProductsProps> = () => {
    return (
    <div className="Products" data-testid="Products">
       <UI.Header>Products</UI.Header>
-      <UI.Main>Products Content</UI.Main>
+      <UI.Main>
+         Products Content
+         <Features.Products />
+      </UI.Main>
       <UI.Footer />
    </div>
    )
